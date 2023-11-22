@@ -44,6 +44,23 @@ fun main() {
     texto2 = "Que tal??"
 
     val esFloat: Boolean = float is Float
-    esFloat = entero1 is Float
+    println("El float es Float? =$esFloat")
+    // esFloat = entero1 is Float
+
+    float.toInt()
+
+    var entero2 :Int? = null
+
+    var texto3: String? = null
+    // texto3[0]
+    println(texto2.substring(4))
+    // Poner !! está prohibido
+    println(texto3?.substring(4) ?: "Vaya, era null")
+    // entero2 = null
+
+    val texto4 = "12"
+    val texto5 = "34"
+    val texto6 =texto4 + texto5
+    //entero2 = nul
 
 }
