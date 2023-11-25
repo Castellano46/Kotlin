@@ -1,8 +1,15 @@
 fun main() {
-    saluda("Pedro", "Liebana")
-    println(sumaInt(1, 2))
+    println(inciarPersonajeWhen("Goku", 80))
+    println(inciarPersonajeIf("Goku", 80))
 }
 
-fun saluda(nombre: String, apellido: String) = println("Hola, soy $nombre y me apellido $apellido")
+fun inciarPersonajeWhen(nombre: String, vida: Int) = when {
+    vida < 20 -> "$nombre, estás bajo de vida"
+    vida < 81 -> "$nombre, estás algo herido"
+    else -> "$nombre, estás en prefectas condiciones"
+}
 
-fun sumaInt(int1: Int, int2: Int) = (int1 + int2).toString()
+fun inciarPersonajeIf(nombre: String, vida: Int) =
+    if (vida < 20) "$nombre, estás bajo de vida"
+    else if (vida < 81) "$nombre, estás algo herido"
+    else "$nombre, estás en prefectas condiciones"
