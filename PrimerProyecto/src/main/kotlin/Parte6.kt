@@ -5,6 +5,7 @@ fun main() {
     // Opción 2{ println("Hola") }()
     val lambda1 = { println("Soy lambda 1") }
     lambda1.invoke()
+    lambda1()
     ejecutarLambda(lambda1)
 
     val lambda2: () -> Unit = { println("Soy lambda 2") }
