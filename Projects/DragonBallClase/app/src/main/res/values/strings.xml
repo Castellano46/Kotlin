@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DragonBallClase</string>
+    <string name="hello_world_vertical">Hello World Vertical</string>
+    <string name="hello_world_horizontal">Hello World Horizontal</string>
+</resources>

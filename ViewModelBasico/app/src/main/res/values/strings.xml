@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ViewModelBasico</string>
+    <string name="toast_text">This is a Toast</string>
+</resources>
